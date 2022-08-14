@@ -16,11 +16,9 @@ img {
     margin-left: 900px;
 }
 
-.nav-links{
+.nav-links {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: black;
-    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
 }
 
 header {
@@ -29,8 +27,7 @@ header {
     align-items: center;
     padding: 30px;
     font-size: 16px;
-    background-color: lightblue;
-    
+    background-color: lightblue;   
 }
 
 .nav-links li {
@@ -44,9 +41,21 @@ header {
     transition: all 0.3 ease 0s;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
 .nav-links li a:hover {
     color: blue;
+    text-decoration: underline;
 }
+
+.nav-links li a:active {
+    color: white;
+    text-decoration: none;
+}
+
 
 
 h1 {
